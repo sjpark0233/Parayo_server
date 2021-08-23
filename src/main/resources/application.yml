@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/parayo?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: root
+    password: dnflemf8416^
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
